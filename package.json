@@ -1,0 +1,25 @@
+{
+  "name": "@5grdoatc9zt/console-log-formatter",
+  "version": "1.0.0",
+  "description": "Gives you formatted string to log using console.log in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurdi1mans/console-log-formatter.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "console.log",
+    "format"
+  ],
+  "author": "Mansour Kurdi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurdi1mans/console-log-formatter/issues"
+  },
+  "homepage": "https://github.com/kurdi1mans/console-log-formatter#readme"
+}
