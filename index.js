@@ -34,22 +34,4 @@ const frmt = (text, color, blinking) =>
 	return output;
 }
 
-const test = () =>
-{
-	console.log("Hola",frmt("This should not blink with default color (no parameters passed)"),"End");
-
-	console.log(frmt("This should not blink with default color", null, false));
-	console.log(frmt("This should not blink with Green color", "#03fc4a", false));
-	console.log(frmt("This should not blink with Yellow color", "#fcf003", false));
-	console.log(frmt("This should not blink with Orange color", "#fc9803", false));
-	console.log(frmt("This should not blink with Red color", "#fc0303", false));
-
-	console.log(frmt("This should blink with default color", null, true));
-	console.log(frmt("This should blink with Green color", "#03fc4a", true));
-	console.log(frmt("This should blink with Yellow color", "#fcf003", true));
-	console.log(frmt("This should blink with Orange color", "#fc9803", true));
-	console.log("Hola",frmt("This should blink with Red color", "#fc0303", true),'End');
-
-}
-
 module.exports = frmt
